@@ -68,7 +68,7 @@ module.exports.renderEditForm =  async (req, res) =>{
 module.exports.updateListing = async (req, res) => {
     
     let { id } = req.params;
-    // let {image} = req.body;
+   
 
     const listing = req.body.listing;
 
